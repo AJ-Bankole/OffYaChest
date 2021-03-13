@@ -20,7 +20,7 @@
     <header>
         <!-- Main Navbar -->
         <nav>
-            <div class="nav-wrapper indigo accent-1 white-text text-shadow">
+            <div class="nav-wrapper teal white-text">
                 <a href="{{ url_for('get_posts') }}" class="brand-logo">Off Ya Chest</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
@@ -28,7 +28,7 @@
                     <li><a href="#">Profile</a></li>
                     <li><a href="#">Log in</a></li>
                     <li><a href="#">Log Out</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li><a href="{{ url_for('register') }}">Register</a></li>
 
                 </ul>
             </div>
@@ -41,7 +41,7 @@
             <li><a href="#">Profile</a></li>
             <li><a href="#">Log in</a></li>
             <li><a href="#">Log Out</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="{{ url_for('register') }}">Register</a></li>
         </ul>
     </header>
 
