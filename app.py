@@ -92,6 +92,9 @@ def logout():
     flash('You have been successfully logged out')
     session.pop('user')
     return redirect(url_for('login'))
+
+
+
     
 
 if __name__ == "__main__":
